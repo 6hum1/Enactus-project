@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    background:linear-gradient(to right,white,rgb(239, 137, 239));
+    background-size: cover;
+
+
+}
+
+
+.navbar{
+    border:2px solid black;
+    position:sticky;
+    background:#333;
+    height:50px;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    
+   
+}
+    
+.navbar span{
+    font-family: 'Dancing Script', cursive;
+    color:hotpink;
+    font-size:45px;
+    margin-left:28px;
+}
+    
+.navbar a{
+    position:absolute;
+    right:100px;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar a:hover{
+    color:grey;
+}
+
+
+.timetable{
+    border:2px solid red;
+    width:80%;
+    height:500px;
+    background:#333;
+    margin:auto;
+    border-radius:40px;
+    box-shadow:8px 8px 20px;
+
+}
